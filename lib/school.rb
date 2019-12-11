@@ -10,8 +10,9 @@ class School
 
     def add_student(name, grade)
         roster[grade] ||= []
+        #shovels name of student into the roster of students for the designated grade
         roster[grade] << student_name
     end
 
-    
+
 end
