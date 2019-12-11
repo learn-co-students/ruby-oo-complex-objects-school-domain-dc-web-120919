@@ -8,10 +8,14 @@ class School
         @roster = {}
     end
 
-    def add_student(name, grade)
+    def add_student(student_name, grade)
         roster[grade] ||= []
         #shovels name of student into the roster of students for the designated grade
         roster[grade] << student_name
+    end
+
+    def grade(student_name)
+        
     end
 
 
